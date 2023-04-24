@@ -1,0 +1,169 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.i-name>:nth-child(1){
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+}
+.i-name>:nth-child(2){
+    font-size: 3rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.i-name>:nth-child(3){
+    font-size: 15px;
+    color: var(--gray);
+    font-weight: 400;
+}
+.i-button{
+    width: 12rem;
+    height: 3rem;
+}
+
+.i-icons{
+    font-size: 60px;
+    color: var(--orange);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.i-icons>*:hover{
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
+
+
+}
+
+
+.i-right{
+    flex: 1;
+    position: relative;
+
+}
+
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.i-right>:nth-child(1){
+  top:10%
+
+}
+
+.i-right>:nth-child(2){
+    top: -10%;
+  left: 15%;
+  border-radius: 20% 40% 20% 40%;
+  transform: scale(0.8);
+
+}
+
+
+.i-right>:nth-child(3){
+    top: -10%;
+  left: -15%;
+  transform: scale(0.6);
+
+}
+
+.blur{
+    position: absolute;
+    width: 33rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top:0%;
+    left:46%
+}
+
+
+@media screen and (max-width : 800px) {
+    .intro{
+        flex-direction: column;
+        height: 70rem;
+        /* gap: 7rem; */
+        width: 100%;
+    }
+    .i-right{
+        transform: scale(0.7);
+        left: -4rem;
+    }
+    .floating-div:nth-of-type(3){
+       transform: none !important;
+       transition: none !important;
+        top: 30rem !important;
+    }
+    .floating-div:nth-of-type(2){
+        transform: none !important;
+       transition: none !important;
+        top: 34rem !important;
+    }
+    .i-right>img:nth-child(1){
+       transform: scale(1.5);
+       margin-left: 6rem;
+    }
+    .i-right>img:nth-child(2){
+        /* transform: scale(1.5); */
+        /* margin-left: 6rem; */
+        margin-top: 5rem;
+     }
+     .pikachuImg{
+        transform: none !important;
+        transition: none !important;
+       /* display: none; */
+      position: static;
+       
+        
+     }
+     .pikaCont{
+        position: absolute;
+        margin-left: -7rem;
+        margin-top: -12rem;
+        transform: scale(0.7)!important;
+        width: 200%;
+        
+     }
+     .blur{
+        overflow: hidden;
+        /* position: absolute;
+        margin-left: -100%;
+        margin-top: 50%; */
+    }
+    .i-icons{
+        margin-left: 4.5rem;
+        margin-top: 3rem;
+    }
+
+    
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2d53da4.css",
+    "main.js": "/static/js/main.b4295f1b.js",
+    "static/media/pikachu2.png": "/static/media/pikachu2.eb7346c5be5e27ef5154.png",
+    "static/media/Business2.png": "/static/media/Business2.e7c55fda6bbdff6edfe7.png",
+    "static/media/Business.png": "/static/media/Business.f1f2d2057beffc889b10.png",
+    "static/media/ECommerce.png": "/static/media/ECommerce.ef8f1be68c487f81960b.png",
+    "static/media/Blog.png": "/static/media/Blog.ef50f04b21d45031ce4c.png",
+    "static/media/responsiveFinal.png": "/static/media/responsiveFinal.0ca47445f8e2094faafc.png",
+    "static/media/ProfilePIcY.png": "/static/media/ProfilePIcY.5625b0f17dc1050aa4bf.png",
+    "static/media/Pikachu.png": "/static/media/Pikachu.9851b4ef5f601c2ad9b6.png",
+    "static/media/Resume_Jan2023_Yunus.pdf": "/static/media/Resume_Jan2023_Yunus.530c18e51807b1eeecaa.pdf",
+    "static/media/abstract2.png": "/static/media/abstract2.12d2c91c6706c107df64.png",
+    "static/media/pikachu4.png": "/static/media/pikachu4.5a047ef19e9e2c388a69.png",
+    "static/media/wave.png": "/static/media/wave.f530dd50e13ceb448c09.png",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/kronos2.png": "/static/media/kronos2.9eaef5b70de8ef82c4ed.png",
+    "index.html": "/index.html",
+    "main.f2d53da4.css.map": "/static/css/main.f2d53da4.css.map",
+    "main.b4295f1b.js.map": "/static/js/main.b4295f1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2d53da4.css",
+    "static/js/main.b4295f1b.js"
+  ]
+}

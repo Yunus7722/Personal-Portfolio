@@ -1,0 +1,167 @@
+.work {
+    display: flex;
+    height: 90vh;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
+}
+
+.w-left {
+    margin-top: 6rem;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+
+.w-name {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.w-name>:nth-child(1) {
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.w-name>:nth-child(2) {
+    font-size: 3rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.w-name>:nth-child(3) {
+    font-size: 15px;
+    color: var(--gray);
+    font-weight: 400;
+
+}
+
+.w-button {
+    width: 12rem;
+    height: 3rem;
+}
+
+
+.w-right {
+    flex: 1;
+    position: relative;
+
+}
+
+.w-main-circle {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    background-color: white;
+    top: 0%;
+    left: 20%;
+}
+
+.w-sec-circle {
+    /* position: absolute; */
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    /* background-color: wheat; */
+    top: 0%;
+    left: 5%;
+    background: white;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-sec-circle>img {
+    transform: scale(0.8);
+}
+
+.w-main-circle>* {
+    position: absolute;
+}
+
+.w-main-circle> :nth-child(1) {
+    top: -4rem;
+    left: 8rem;
+}
+
+.w-main-circle> :nth-child(2) {
+    top: 8rem;
+    left: -4rem;
+}
+
+.w-main-circle> :nth-child(3) {
+    top: 8rem;
+    left: 19rem;
+}
+
+.w-main-circle> :nth-child(4) {
+    top: 8rem;
+    left: 8rem;
+}
+
+.w-main-circle> :nth-child(5) {
+    top: 20rem;
+    left: 8rem;
+}
+
+.backCircle {
+
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    z-index: -1;
+
+
+}
+
+.blueCircle {
+    background-color: #781E9E;
+    top: -5%;
+    left: 40%;
+    
+
+}
+
+.yellowCircle {
+background-color: #FFEB3A;
+    top: 25%;
+    left: 40%;
+
+}
+
+
+@media screen and (max-width : 800px) {
+    .work{
+        display: flex;
+        height: 85rem;
+        flex-direction: column;
+        margin-bottom: -10rem;
+    }
+    .w-right{
+        margin-top: -5rem;
+        transform: scale(0.7);
+        padding: 0;
+        margin-left: -5rem;
+        /* padding-bottom: 10rem; */
+    }
+    .blueCircle{
+        left: 50%;
+    }
+    .yellowCircle{
+        left: 50%;
+        top: 20%;
+    }
+    .blur{
+        overflow: hidden;
+    }
+}
